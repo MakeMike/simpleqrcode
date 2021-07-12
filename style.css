@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@keyframes maina{
+    0%{opacity: 0%;}
+    50%{opacity: 50%;}
+    100%{opacity: 100%;}
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+html{
+    background-color: #F87060;
+}
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+#link{
+    width: 60vw;
+    font-size: 50px;
+    margin-top: 10px;
+    
+}
+#mbtn{
+    width: 500px;
+    margin: 10px;
+    font-size: 35px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 5px 5px 15px 1px #000000; 
+    box-shadow: 5px 5px 15px -2px #000000;
+    background-color: #FFFFFF;
+    animation-name: maina;
+    animation-duration: 1s;
+}
+#qrcode{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#cselect{
+    width: 250px;
+    height: 30px;
+}
+.cp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}

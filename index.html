@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <h1 class="title">Simple QR Code Generator</h1>
+        <title>Simple QR Code Maker</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        
+            <div class="main">
+                <input required id="link" placeholder="Please insert text or link here">
+                <p class="cp">Please select color of QR Code</p>
+                <input type="color" id="cselect">
+                <button id="mbtn"onclick="makeQr()">Make QR Code</button>
+                <div id="qrcode"></div>
+            </div>
+            
+    </body>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="app.js"></script>
+</html>
