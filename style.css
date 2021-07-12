@@ -26,6 +26,7 @@ html{
     width: 500px;
     margin: 10px;
     font-size: 35px;
+    border-radius: 0;
 }
 .main{
     display: flex;
